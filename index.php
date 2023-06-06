@@ -8,11 +8,15 @@
     <title>php Study Advance</title>
 </head>
 <body>
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-        Select image to upload
-        <input type="file" name="fileToUpload">
-        <input type="submit" value="Upload Image" name="submit">
-    </form>
+    <div class="container">
+        <form class="form" action="upload.php" method="post" enctype="multipart/form-data">
+            <p>Select image to upload</p>
+            <input type="file" name="fileToUpload">
+            <br>
+            <input type="submit" value="Upload Image" name="submit">            
+        </form>
+    </div>
+    
 
 </body>
 </html>

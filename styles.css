@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(128, 125, 125);
+}
+p {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.form {
+    background-color: white;
+    width: 50%;
+    height: 20%;
+}
+
